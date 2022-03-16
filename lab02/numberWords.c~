@@ -1,0 +1,30 @@
+//Addition lab z5259449
+//Jackie Cai 24 September 2019
+#include<stdio.h>
+#include<stdlib.h>
+ int main(void) {
+    int number;
+    printf("Please enter an integer: ");
+    scanf("%d" ,&number);
+    if (number == 1) {
+    printf ("You entered one.");
+    } else if (number == 2) {
+    printf ("You entered two.");
+    } 
+    else if (number == 3) {
+    printf ("You entered three.");
+    } 
+    else if (number == 4) {
+    printf ("You entered four.");
+    } 
+    else if (number == 5) {
+    printf ("You entered five.");
+    } 
+    else if (number <= 0) {
+    printf ("You entered a number less than one.");
+    } 
+    else {
+    printf ("You entered a number greater than five.");
+    }
+    return 0;
+    }

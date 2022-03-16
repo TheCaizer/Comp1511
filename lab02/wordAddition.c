@@ -1,0 +1,17 @@
+//Addition lab z5259449
+//Jackie Cai 24 September 2019
+#include<stdio.h>
+#include<stdlib.h>
+int main(void) {
+    int numOne;
+    int numTwo;
+    printf("Please enter two integers: ");
+    scanf("%d %d",&numOne ,&numTwo);
+    int sum;
+    sum = numOne + numTwo;
+    if (numOne == 1) {
+    numOne = "One";
+}
+    printf("%d + %d = %d",numOne ,numTwo ,sum); 
+    return 0;
+}

@@ -1,0 +1,22 @@
+//Jackie Cai
+
+#include<stdio.h>
+#include<ctype.h>
+
+int main(void){
+    int ch = getchar();
+    while(ch != EOF){
+        if(ch >= 'A' && ch <= 'Z'){
+            ch = tolower(ch);
+            printf("%c" ,ch);
+        }
+        else if(ch >= 'a' && ch <= 'z'){
+            ch = toupper(ch);
+            printf("%c" ,ch);
+        }
+        else{
+            printf("%c" ,ch);
+        }
+        ch = getchar();
+    }
+}

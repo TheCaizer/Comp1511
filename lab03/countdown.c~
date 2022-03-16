@@ -1,0 +1,5 @@
+//Jackie Cai countdown program
+//z5259449 1/10/2019
+
+#include<stdio.h>
+#include<stdlib.h>

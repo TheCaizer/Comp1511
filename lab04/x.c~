@@ -1,0 +1,30 @@
+//Jackie Cai z5259449
+//x.c 8/10/2019
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main(void){
+    int size;
+    int i = 0;
+    int j = 0;
+    
+    printf("Enter size: ");
+    scanf("%d",&size);
+    while(i<size){
+        j=0;
+        while(j<size){
+        if(j == i || i == (size-1)-j)
+        {
+            printf("*");
+        }
+        else
+        {
+            printf("-");
+        }
+        j++;
+    }
+    printf("\n");
+    i++;
+}
+}

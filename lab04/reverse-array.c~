@@ -1,0 +1,13 @@
+//Jackie Cai z5259449
+//reverseArray.c 8/10/2019
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main(void){
+    int num[100];
+    int i =0;
+    printf("Enter numbers forwards:\n");
+    scaf("%d \n",&num[i]);
+    i++;
+}
